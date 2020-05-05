@@ -1,5 +1,6 @@
 <?php
 
+//mpywのHP,はるうさの攻撃力,mpywの回復量を入力してください。
 //入力を受け取ってそれぞれの変数に格納
 [$initialHp, $atk, $heal] = array_map('intval', explode(' ', rtrim(fgets(STDIN))));
 
